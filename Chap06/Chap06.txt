@@ -8,7 +8,7 @@ s = 'Monty Python'
 print(s[0:4])	# Mont s[0]에서 s[3]까지
 print(s[:2])	# Mo s[0]에서 s[1]까지
 print(s[8:])	# thon s[8]에서 끝까지
-print(s[:])		# Monty Python 문자열 전체
+print(s[:])	# Monty Python 문자열 전체
 
 논리연산자 in: 참, 거짓 판별 가능하고 어떤 문자열이 다른 문자열에 포함되는지 확인 가능
 

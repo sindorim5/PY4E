@@ -15,7 +15,7 @@ for name in names :
 	counts[name] = counts.get(name, 0) + 1
 print(counts)
 
-items() 메소드를 이용하면 딕셔너리의 key와 value를 쌍으로 얻을 수 있다.
+items() 메소드를 이용하면 딕셔너리의 key와 value를 튜플의 쌍으로 얻을 수 있다.
 
 Exercise 9.1: Write a program that reads the words in words.txt and stores them as
 keys in a dictionary. It doesn’t matter what the values are. Then you

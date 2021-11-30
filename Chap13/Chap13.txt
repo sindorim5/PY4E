@@ -5,8 +5,15 @@ XML: 트리 구조로 되어있다. 더 구조화 된 HTML이다.
 "~~~": ~~~에 값이 들어간다.
 
 XML Schema: XML 문서에서 데이터가 마크업 되는 방식을 정의한다.
+To establish a contract as to what is valid XML
 
 <메모>신도림<내용>1호선, 2호선 -> <메모>, <내용>: 마크업
 
 XML: 체계적이고 기능이 풍부함.
 JSON: 데이터를 시스템에서 추출해서 두 시스템 사이에서 간단히 이동할 수 있다.
+
+Exercise 13.1: Change either geojson.py or geoxml.py to print out the two-
+character country code from the retrieved data. Add error checking so
+your program does not traceback if the country code is not there. Once
+you have it working, search for “Atlantic Ocean” and make sure it can
+handle locations that are not in any country.

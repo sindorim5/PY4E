@@ -1,0 +1,26 @@
+정규식
+
+import re로 불러올 수 있음.
+
+^ : 줄의 시작
+$ : 줄의 끝
+. : 임의의 아무 문자
+* : 앞의 문자가 여러 번 반복될 수 있다.
+\s : whitespace
+\S : whitespace가 아닌 것
++ : 앞의 문자가 1번 이상 나타난다.
+
+"Greedy" matching: 선택할 수 있는 것 중 가장 긴 문자열을 갖고온다.
+
+?를 붙이면 non-Greedy가 된다.
+괄호는 매칭에 포함되지 않으며 추출될 문자열의 시작과 끝을 의미한다.
+
+Exercise 11.1: Write a simple program to simulate the operation of the
+grep command on Unix. Ask the user to enter a regular expression and
+count the number of lines that matched the regular expression
+
+Exercise 11.2: Write a program to look for lines of the form:
+New Revision: 39772
+Extract the number from each of the lines using a regular expression
+and the findall() method. Compute the average of the numbers and
+print out the average as an integer.
